@@ -1,0 +1,13 @@
+name: Kanza Jovita and Godfrey Owiny
+run-name: Testing Github Actions
+on: [push]
+jobs:
+    Test-GithubActions:
+        runs-on:ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Echo Names
+      run: echo "Kanza Jovita and Godfrey Owiny"
