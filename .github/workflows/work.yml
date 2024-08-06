@@ -1,9 +1,10 @@
 name: Kanza Jovita and Godfrey Owiny
 run-name: Testing Github Actions
 on: [push]
+
 jobs:
-    Test-GithubActions:
-        runs-on:ubuntu-latest
+  Test-GithubActions:
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
